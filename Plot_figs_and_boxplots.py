@@ -599,8 +599,8 @@ if __name__ == '__main__':
     print (np.corrcoef (intra_mean_WWD, intra_mean_WWD2)[0,1].round(2))
     
     #Inter model
-    inter_mean_WWD = np.nanmean (intra_mean_WWD_mix)
-    inter_std_WWD = np.nanstd(intra_mean_WWD_mix)
+    inter_mean_WWD = np.nanmean (intra_mean_WWD)
+    inter_std_WWD = np.nanstd(intra_mean_WWD)
     
     inter_mean_WWD2 = np.nanmean (intra_mean_WWD2)
     inter_std_WWD2 = np.nanstd(intra_mean_WWD2)
